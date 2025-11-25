@@ -1,0 +1,75 @@
+node_modules/
+
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log*
+
+pids
+*.pid
+*.seed
+*.pid.lock
+
+lib-cov
+
+coverage/
+.nyc_output/
+
+dist/
+build/
+out/
+.tmp/
+.temp/
+
+.cache/
+.parcel-cache/
+
+.turbo/
+
+.serverless/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache dir
+.npm
+
+# dotenv environment variables
+.env
+.env.test
+.env.local
+.env.development.local
+.env.production.local
+.env.*.local
+!.env.example
+
+# VS Code
+.vscode/
+.history/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+.Trash-*
+
+# Misc
+coverage/
+.sass-cache
+*.tgz
+.yarn-integrity
+.pnp.*
+.eslintcache
+
+# Editor swap files
+*~
+*.swp

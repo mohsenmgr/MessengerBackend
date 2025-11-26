@@ -1,0 +1,3 @@
+const MOCK_UUID = "00000000-0000-0000-0000-000000000001";
+
+export const v4 = () => MOCK_UUID;
